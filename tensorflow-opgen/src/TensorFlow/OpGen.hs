@@ -186,7 +186,7 @@ renderOp pOp = stack $
     , n' <+> "::" <+> hang 0 (typeSig "OpParams ->" pOp)
     , n' <+> hang 0 args <+> "|" <+> funcGuard listSizeAttrs
                 <+> "=" </>  -- args are indented
-                    -- the body needs to be indented wrt the name
+                    -- the  needs to be indented wrt the name
                     indent indentation (functionBody pOp)
     ] ++ whereClause listSizeAttrs
   where
