@@ -66,7 +66,7 @@ import Proto.Tensorflow.Core.Framework.OpDef_Fields
   ( attr
   , inputArg
   , name
-  , op
+  , opp
   , outputArg
   )
 import Proto.Tensorflow.Core.Framework.Types (DataType(..))
